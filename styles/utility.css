@@ -29,3 +29,7 @@
 .text-sm {
   font: var(--text-sm);
 }
+
+.text-span {
+  font: var(--text-span);
+}
