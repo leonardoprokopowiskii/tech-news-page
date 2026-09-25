@@ -24,7 +24,11 @@
     figcaption {
       position: absolute;
       bottom: 0;
-      padding: 20px;
+      padding: 24px;
+
+      &:has(.text-xl) {
+        padding: 12px;
+      }
 
       h2 {
         margin-top: 8px;
